@@ -4,7 +4,42 @@ body {
 	line-height: 1.6;
 }
 
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+blockquote{
+	margin-left: 0;
+	padding-left: 40px;
+	border-left: 3px solid #e06149;
+}
+
+code{
+	color: #464646;
+	padding: 3px 7px;
+	border-radius: 2px;
+	background: #e0e0e0;
+	font-size: 14px;
+}
+
 .container {
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 50px auto;
+}
+
+.button{
+	padding: 10px 25px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #0f0f00;
+	border: 2px solid #0f0f00;
+	transition: color .2s linear, background-color .2s linear;
+}
+.button:hover{
+	color: #0f0f00;
+	background-color: #fff;
 }
